@@ -23,5 +23,4 @@ tasks.withType(JavaCompile) {
 
 test {
     useJUnitPlatform()
-    systemProperty 'webdriver.chrome.driver', 'C:/chromedriver-win64/chromedriver.exe'
 }
